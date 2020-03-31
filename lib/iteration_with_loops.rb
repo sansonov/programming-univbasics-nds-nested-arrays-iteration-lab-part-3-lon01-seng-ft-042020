@@ -22,5 +22,5 @@ def join_nested_strings(src)
    k+=1
    end
    #binding.pry
-   return final.join()
+   return final.join(" ")
 end
