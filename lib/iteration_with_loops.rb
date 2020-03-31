@@ -14,5 +14,12 @@ def join_nested_strings(src)
     end
     x+=1
    end
-   return final.to_s
+   
+   k = 0
+   while k < final.length do
+   
+   k+=1
+   end
+   
+   #return final
 end
