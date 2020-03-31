@@ -14,5 +14,5 @@ def join_nested_strings(src)
     end
     x+=1
    end
-   return final
+   return final.flatten()
 end
