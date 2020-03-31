@@ -9,10 +9,10 @@ def join_nested_strings(src)
       if src[x][y] == src[x][y].to_s
       final.push(src[x][y])
       #binding.pry
+      end
       y+=1
     end
-    low.push(a)
     x+=1
    end
-   return low
+   return final
 end
